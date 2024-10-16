@@ -110,6 +110,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
 ```
 En este codigo nosotros estamos creando el contexto de nuestra aplicación con ICP.
+Donde deberemos reemplazar la "baseUrl" y "providerUrl" de nuestra configuración por las urls de nuestros canisters correspondientes.
 
 Ya teniendo este codigo, ahora nos debemos dirigir a nuestro archivo "App.js", donde al igual que en el anterior ejemplo, eliminaremos el codigo que hay y pondremos el siguiente:
 ```bash
@@ -139,3 +140,4 @@ Donde ya haremos una llamada a nuestra API en nuestro canister y mostraremos la 
 
 ## Para terminar
 Con todos los pasos anteriormente hechos, nuestro proyecto hecho con azle, ya debería de tener una comunicación entre sus dos principales entidades, frontend y backend.
+Finalmente, solo deberan correr el comando "dfx deploy" para ejecutar ambos canisters
